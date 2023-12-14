@@ -20,7 +20,7 @@ public class Main {
             writer.write(content);
             System.out.println("File written successfully.");
         } catch (IOException e) {
-            System.out.println("An error occurred while writing the file: " + e.getMessage());
+            System.out.println("An error occurred while writing the file : " + e.getMessage());
         }
 
         return message;
